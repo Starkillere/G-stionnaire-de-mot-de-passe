@@ -1,2 +1,0 @@
-Nom = ADMINE
-Password = 059082284b27eec348c8ff03b9a1d58aa8d16c16
