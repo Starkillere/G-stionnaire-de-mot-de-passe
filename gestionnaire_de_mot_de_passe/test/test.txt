@@ -1,2 +1,0 @@
-Nom = ANREZKI
-Password = fdae24253a391bbdc33ab464f7b7da3f03b1d67a
