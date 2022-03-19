@@ -211,7 +211,7 @@ def modifier(nom:str, master_password:str, new_nom:str, new_password:str, databa
             requete = "select * from user WHERE nom = ?"
             cursor.execute(requete, (new_nom,))
             user_exist = cursor.fetchone()
-        if user_exist == None:
+        if user_exist == None or new_nom == nom:
             if len(user[3]) > len(master_password):
                 for i in range(len(user[3])-len(master_password)):
                     master_password += master_password[:(len(user[3])-len(master_password))]
